@@ -1,0 +1,289 @@
+/* index pagina */
+
+body{
+    background-color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* header */
+
+.groen-vlak{
+    background-color:#639451;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color:rgba(29, 87, 24, 0.827);
+    gap: 5px;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color:#639451;
+    padding: 10px;
+    background-color:rgb(233, 233, 233);
+    border-radius: 8px;
+}
+
+.image-logo{
+    max-width: 50%;
+    height: auto;
+    margin-top: -17px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2em;
+    position: relative;
+}
+
+.mijnafbeelding{
+    width: 200px;
+    height: 250px;
+}
+
+.mijnafbeelding1{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    margin-top: -50px;
+    margin-left: 25px;
+}
+
+/* main */
+
+.article{
+    background-color: #639451;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-images{
+    display: flex;
+    justify-content: space-between;
+    margin:30px;
+    margin-top: -15px;
+}
+
+.white{
+    color: white;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.afbeeldingboer{
+    height: 245px;
+    width: 300px;
+    border-radius: 70px;
+}
+
+.text-container{
+    display: flex;
+    color:white;
+    background-color: #A8CC5A;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 58px;
+    margin-top: 46px;
+    margin-left: 8px;
+    margin-right: 8px;
+    gap: 16px;
+}
+
+.article-1{
+    display:flex ;
+    flex-direction: row-reverse;
+    background-color: #A8CC5A;
+}
+
+.afbeeldingkrat{
+    height: auto;
+    max-width: fit-content;
+    margin: 16px;
+}
+
+.content{
+    color: white;
+    margin-left: 16px;
+    padding-bottom: 21px;
+}
+
+h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 28px;
+    padding-top: 8px;
+    margin: 8px;
+}
+.article-2{
+    background-color: #639451d4;
+    margin: 16px;
+    padding:16px;
+    border-radius: 12px;
+}
+
+.content-2{
+    display: flex;
+    margin: 2px;
+    font-size: 12px;
+}
+
+.content-2 img{
+    margin-right: 16px;
+    max-width:fit-content;
+    height: fit-content;
+}
+
+footer{
+    background-color: #639451;
+    color: white;
+}
+
+h4{
+    font-size: 22px;
+}
+
+footer div{
+    padding: 16px;
+}
+
+/* pagina 2 */
+
+h1{
+    font-size: 42px;
+}
+
+article h2{
+    font-size: 18px;
+}
+
+section article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.groen-container{
+    background-color: #639451;
+    color: white;
+}
+
+/* pagina 3 */
+
+.aangepastevorm{
+    background-color: #639451;
+    color: white;
+    padding: 150px;
+    padding-left: 0;
+    padding-top: 1px;
+    margin-top: -17px;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 60%, 0% 89%);
+
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    align-items: end;
+    background-color: #639451;
+    color: white;
+    clip-path: polygon(30% 30%, 160% 0%, 100% 100%, 0% 100%);
+    margin-bottom: 55px;
+    margin-top: -220px;
+    padding: 48px;
+    padding-right: 0;
+    padding-left: 80px;
+    padding-top: 180px;
+}
+
+.small{
+    width: 5%;
+}
+
+.right-side img{
+    max-width:fit-content;
+}
+
+.aangepastevorm-1{
+    background-color: #639451;
+    color: white;
+    clip-path: polygon(0% 5%, 60% 0%, 100% 100%, 0% 100%);
+    padding-right: 70px;
+    padding-bottom: 32px;
+}
+
+/* pagina 4 */
+
+.flex{
+    background-color: #639451;
+    display: flex;
+    align-items: center;
+    padding:16px;
+}
+
+.image-map{
+    width: 50%;
+    height: auto;
+    padding-left: 24px;
+}
+
+.text-right{
+    padding: 24px;
+    line-height: 5px;
+    color: white;
+}
+
+.content-container{
+    background-color:#639451cb;
+    color: white;
+    padding: 32px;
+}
+.article-brown{
+    background-color: rgb(56, 35, 14);
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 16px;
+    color: white;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.article-brown div{
+    background-color: #5f5033e9;
+    border-radius: 25px;
+    padding: 16px;
+}
+
+.buiten-kader{
+    position: absolute;
+    margin-top: -85px;
+}
+
+.positie{
+    margin-top: 42px;
+}
+
+.content-3{
+    padding-bottom: 50px;
+}
